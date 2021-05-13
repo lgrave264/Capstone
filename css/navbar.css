@@ -2,9 +2,33 @@ body {
   margin: 0;
 }
 
-.center {
+li {
+  max-width: 100px;
+  display: inline;
+  float: left;
+}
+
+a {
+  text-align: center;
+}
+
+.navItems {
+  background-color: gray;
+  max-width: 200px;
+}
+
+.navbarRow {
+  margin: 0 30% 0 30%;
+}
+
+.centeredImage {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
+}
+
+#mainLogo {
+  width: 200px;
+  height: auto;
 }
