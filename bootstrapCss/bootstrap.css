@@ -4260,6 +4260,20 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
+.fList{
+  display: inline;
+}
+
+.sList{
+  padding: 2rem;
+  display: inline;
+}
+
+.sLists{
+  padding: 5rem;
+  display: inline;
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
