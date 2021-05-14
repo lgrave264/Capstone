@@ -1,3 +1,40 @@
+body{
+    background-color:grey;
+}
 td{
     height:10vw;
+    font-size:1vw;
+    max-width:8vw;
+}
+th{
+    max-width:8vw;
+    font-size:1.1vw;
+    background-color:grey;
+    border:none;
+}
+.sunIcon{
+    width:25%;
+}
+.cloudIcon{
+    width:35%;
+}
+.calHeader{
+    font-size:1.25vw;
+    padding:1.5vw;
+    margin:2vw; 
+    width:3vw;
+    background-color:lightgray;
+}
+a{
+    border:white .25vw solid;
+    padding-left:1vw;
+    padding-right:1vw;
+    border-radius:50px;
+    margin: 1vw 1vw 0 0;
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:maroon;
+    background-color:black
 }
