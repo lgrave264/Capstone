@@ -7,10 +7,20 @@
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 <link href="/weather-world-wide/css/monthy.css" rel="stylesheet">
+<link rel ="icon" href="images/logo2.png">
+<style >
+  @font-face{
+    font-family:oswald;
+    src:url("fonts/Oswald-Regular.ttf")
+  }
+  body{
+    font-family:oswald;
+  }
+</style>
 </head>
 <body>
     <!--Calendar Table Setup-->
-    <table class="table table-dark">
+    <table class="table table-light">
         <!--Header of Calender-->
         <thead>
           <tr>
@@ -27,7 +37,7 @@
         <tbody>
           <tr>
             <!--Every new "th" is a new week (Week 1)-->
-            <th scope="row">Sunday 1<pre>
+            <th scope="row" class="rowStart">Sunday 1<pre>
 92/56 &#8457;
 <img src="images/overcast.png" class="cloudIcon"></pre></th>
             <td>Monday 2<pre>
@@ -51,7 +61,7 @@
           </tr>
           <tr>
             <!--Week 2-->
-            <th scope="row">Sunday 8<pre>
+            <th scope="row" class="rowStart">Sunday 8<pre>
 96/65 &#8457;
 <img src="images/sunicon.png" class="sunIcon"></pre></th>
             <td>Monday 9<pre>
@@ -75,7 +85,7 @@
           </tr>
           <tr>
             <!--Week 3-->
-            <th scope="row">Sunday 15<pre>
+            <th scope="row" class="rowStart">Sunday 15<pre>
 96/65 &#8457;
 <img src="images/thundercloud.png" class="sunIcon"></pre></th>
             <td>Monday 16<pre>
@@ -99,7 +109,7 @@
           </tr>
           <tr>
             <!--Week 4-->
-            <th scope="row">Sunday 22<pre>
+            <th scope="row" class="rowStart">Sunday 22<pre>
 96/65 &#8457;
 <img src="images/sunicon.png" class="sunIcon"></pre></th>
             <td>Monday 23<pre>
@@ -123,7 +133,7 @@
           </tr>
           <tr>
             <!--Week 5-->
-            <th scope="row">Sunday 29<pre>
+            <th scope="row" class="rowStart">Sunday 29<pre>
 96/65 &#8457;
 <img src="images/overcast.png" class="cloudIcon"></pre></th>
             <td>Monday 30<pre>
