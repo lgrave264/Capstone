@@ -7,6 +7,9 @@ td{
     max-width:8vw;
     border:orange .05vw solid;
 }
+td:hover{
+    background-color:lightgrey;
+}
 th{
     max-width:8vw;
     font-size:1.1vw;
@@ -24,7 +27,7 @@ th{
     padding:1.5vw;
     margin:2vw; 
     width:3vw;
-
+    text-align: center;
 }
 a{
     border:white .25vw solid;
@@ -44,4 +47,22 @@ a:hover{
 }
 .rowStart{
     border:orange .05vw solid;
+}
+.navItems {
+    background-color: darkblue;
+    border-radius: .8rem;
+    border:none;
+}
+#navbarRow{
+    background-color:darkblue;
+}
+.navText{
+    margin-bottom: 1.1vw;
+}
+#topNavRow{
+    background-color:rgb(31, 3, 99);
+    color:white;
+}
+section{
+    background-color:white;
 }
