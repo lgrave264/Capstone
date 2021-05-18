@@ -50,15 +50,13 @@ a:hover{
 }
 #navbarRow{
     background-color:darkblue;
+    padding:.75vw;
 }
 .navText{
     margin-bottom: 1.1vw;
     border:none;
-    padding:0px;
-    margin:0px;
-}
-.navText{
-    
+    padding:0;
+    margin:0;
 }
 #topNavRow{
     background-color:black;
@@ -66,4 +64,9 @@ a:hover{
 }
 section{
     background-color:white;
+}
+.navItems {
+    background-color: orange;
+    border-radius: .5rem;
+    border: 2px white solid;
 }
