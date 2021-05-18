@@ -48,21 +48,25 @@ a:hover{
 .rowStart{
     border:orange .05vw solid;
 }
-.navItems {
-    background-color: darkblue;
-    border-radius: .8rem;
-    border:none;
-}
 #navbarRow{
     background-color:darkblue;
+    padding:.75vw;
 }
 .navText{
     margin-bottom: 1.1vw;
+    border:none;
+    padding:0;
+    margin:0;
 }
 #topNavRow{
-    background-color:rgb(31, 3, 99);
+    background-color:black;
     color:white;
 }
 section{
     background-color:white;
+}
+.navItems {
+    background-color: orange;
+    border-radius: .5rem;
+    border: 2px white solid;
 }
