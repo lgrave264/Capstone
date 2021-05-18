@@ -1,10 +1,14 @@
 body{
-    background-color:grey;
+    background-color:white;
 }
 td{
     height:10vw;
     font-size:1vw;
     max-width:8vw;
+    border:orange .05vw solid;
+}
+td:hover{
+    background-color:lightgrey;
 }
 th{
     max-width:8vw;
@@ -23,7 +27,7 @@ th{
     padding:1.5vw;
     margin:2vw; 
     width:3vw;
-    background-color:lightgray;
+    text-align: center;
 }
 a{
     border:white .25vw solid;
@@ -32,9 +36,37 @@ a{
     border-radius:50px;
     margin: 1vw 1vw 0 0;
     text-decoration: none;
-    color:black;
+    color:blue;
+    background-color:orange;
+    
 }
 a:hover{
-    color:maroon;
-    background-color:black
+    color:orange;
+    background-color:blue;
+    border:black .25vw solid;
+}
+.rowStart{
+    border:orange .05vw solid;
+}
+#navbarRow{
+    background-color:darkblue;
+    padding:.75vw;
+}
+.navText{
+    margin-bottom: 1.1vw;
+    border:none;
+    padding:0;
+    margin:0;
+}
+#topNavRow{
+    background-color:black;
+    color:white;
+}
+section{
+    background-color:white;
+}
+.navItems {
+    background-color: orange;
+    border-radius: .5rem;
+    border: 2px white solid;
 }
