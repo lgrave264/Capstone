@@ -17,9 +17,9 @@ a {
 }
 
 .navItems {
-  background-color: red;
+  background-color: orange;
   border-radius: .8rem;
-  border: 2px black solid;
+  border: 2px white solid;
 }
 
 .navText {
@@ -78,3 +78,9 @@ a {
   font-size: 3rem;
   text-align: center;
 }
+
+.navTopLogo {
+  max-width: 6vw;
+  margin: .5vw 0 .5vw 0;
+}
+/*# sourceMappingURL=navbar.css.map */
