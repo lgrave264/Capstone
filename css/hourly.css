@@ -78,10 +78,22 @@ a {
   width: 60%;
   margin: 0 auto 0 auto;
   background-color: white;
-  border: 5px solid lime;
 }
 
 .hourCol {
-  border: 2px solid black;
-  align-items: center;
+  border-right: 4px solid black;
+}
+
+.hourlyText {
+  font-size: 2rem;
+  position: relative;
+  top: 12%;
+}
+
+.hourlyImage {
+  float: left;
+  height: 3rem;
+  width: auto;
+  position: relative;
+  top: 12%;
 }
