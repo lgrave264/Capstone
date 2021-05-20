@@ -75,8 +75,6 @@ a {
 
 /* Content */
 .hourRow {
-  width: 60%;
-  margin: 0 auto 0 auto;
   background-color: white;
 }
 
@@ -96,4 +94,9 @@ a {
   width: auto;
   position: relative;
   top: 12%;
+}
+
+.ad {
+  width: 18rem;
+  height: auto;
 }
