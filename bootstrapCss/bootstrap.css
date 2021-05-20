@@ -38,8 +38,13 @@
   box-sizing: border-box;
 }
 
-.outer-group{
-  margin: 0 19.9% 0 19.9%;
+
+
+.social-img{
+  height: 35px;
+  width: 35px;
+  margin-bottom: 1px;
+  border-radius: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
