@@ -14,10 +14,6 @@ body {
 }
 
 /* Navbar */
-.navbarRow {
-  margin: 0 30% 0 30%;
-}
-
 .navbarTopText {
   color: white;
 }
@@ -71,6 +67,8 @@ a {
 #navbarRow {
   background-color: #00008b;
   justify-content: space-between;
+  z-index: 10;
+  max-width: 119.6875rem;
 }
 
 /* Content */
@@ -99,4 +97,9 @@ a {
 .ad {
   width: 18rem;
   height: auto;
+}
+
+.adBox {
+  display: grid;
+  align-content: space-between;
 }
