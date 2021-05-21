@@ -2532,6 +2532,11 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+.box{
+  display: grid;
+  align-content: space-between;
+}
+
 .ad{
   width: 15rem;
   height: auto; 
